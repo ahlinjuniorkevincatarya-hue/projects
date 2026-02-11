@@ -1,13 +1,7 @@
-#**********************************************************************
-#Phase 3 : Partie de AZZAHIDI AYMEN 
-#**********************************************************************
-
 import numpy as np
 from scipy.optimize import linprog
 
-
 ####### DONNÉES DU PROBLÈME
-
 
 temps = np.array([[4, 8, 12], [3, 6, 9], [1, 2, 3]])
 cout = np.array([[20, 35, 80], [15, 20, 40], [5, 8, 12]])
@@ -240,10 +234,6 @@ print("="*60)
 print(f"\nCoût total optimal: {result.fun:.2f} €")
 print("Solution validée et toutes les contraintes sont satisfaites.")
 print("="*60)
-
-#**********************************************************************
-#Phase 4 : Partie de CATARYA Ahlin Junior Kévin 
-#**********************************************************************
 
 # ============================================================================
 # INTERVALLE D'OPTIMALITÉ D'UN COEFFICIENT DE COÛT c_k
